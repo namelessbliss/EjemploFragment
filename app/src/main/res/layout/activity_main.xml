@@ -11,15 +11,8 @@
         android:name="com.app.nb.ejemplofragment.fragments.DataFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="50"
+        android:layout_weight="1"
         tools:layout="@layout/fragment_data" />
 
-    <fragment
-        android:id="@+id/fragmentDetails"
-        android:name="com.app.nb.ejemplofragment.fragments.DetailsFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="50"
-        tools:layout="@layout/fragment_details" />
 
 </LinearLayout>
